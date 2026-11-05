@@ -50,6 +50,7 @@ function Hero({ lang }) {
         </div>
         <Robot lang={lang} />
       </div>
+
     </section>
   );
 }
@@ -62,11 +63,13 @@ function About({ lang }) {
         <div className="section-heading reveal"><p className="section-index">01 <span>/</span> ABOUT</p><h2>{ar ? "فضول هندسي، وشغف بالواجهات." : "Engineering curiosity. Interface craft."}</h2></div>
         <div className="about-grid">
           <div className="about-copy reveal">
-            <p className="about-lead">{ar ? "أنا أحمد جلال، مهندس اتصالات ومطوّر واجهات أمامية. بحب أفهم النظام من جوّه، وبعدها أحوّل فكرته لتجربة ويب بسيطة وواضحة." : "I'm Ahmed Galal, a communications engineer and front-end developer. I like understanding how a system works, then turning its ideas into clear, approachable web experiences."}</p>
-            <p className="about-secondary">{ar ? "دراستي للاتصالات بتخلّيني أفكر في الترابط والإشارات والتفاصيل. والفرونت إند بيدّيني مساحة أترجم التفكير ده لواجهات الناس تقدر تستخدمها وتتفاعل معاها." : "Communications engineering shapes how I think about systems, signals, and detail. Front-end development lets me turn that thinking into interfaces people can use and enjoy."}</p>
+            <p className="about-lead">{ar ? "أنا أحمد جلال، طالب هندسة اتصالات وإلكترونيات ومطوّر واجهات أمامية. بحب أجمع بين التفكير الهندسي وشغفي بالتقنية عشان أحوّل الأفكار لتجارب رقمية واضحة وسهلة الاستخدام." : "I'm Ahmed Galal, a Communications and Electronics Engineering student and front-end developer. I enjoy combining engineering thinking with my passion for technology to turn ideas into clear, easy-to-use digital experiences."}</p>
+            <p className="about-secondary">{ar ? "دراستي بتعرّفني على عالم الإشارات والشبكات والأنظمة، وتطوير الواجهات بيدّيني مساحة أطبّق التفكير ده في مواقع متجاوبة وممتعة. وبطوّر نفسي باستمرار في مجالات الشبكات والأنظمة والأمن السيبراني." : "My studies introduce me to signals, networks, and connected systems, while front-end development lets me apply that thinking to responsive, enjoyable websites. I'm also growing my knowledge of networking, operating systems, and cybersecurity."}</p>
             <div className="about-points">
-              <div className="about-point"><span className="point-icon">01</span><div><strong>{ar ? "تفكير منظومي" : "Systems thinking"}</strong><span>{ar ? "أفهم العلاقة بين الأجزاء قبل ما أبني الواجهة." : "I look at how the pieces connect before shaping the UI."}</span></div></div>
-              <div className="about-point"><span className="point-icon">02</span><div><strong>{ar ? "اهتمام بالتفاصيل" : "Care for detail"}</strong><span>{ar ? "أهتم بالحركة، الوضوح، والتجربة على كل شاشة." : "I care about motion, clarity, and how each screen feels."}</span></div></div>
+              <div className="about-point"><span className="point-icon">01</span><div><strong>{ar ? "هندسة الاتصالات والإلكترونيات" : "Communications & Electronics"}</strong><span>{ar ? "مهتم بالإشارات والشبكات وطريقة عمل الأنظمة معًا." : "Interested in signals, networks, and how systems work together."}</span></div></div>
+              <div className="about-point"><span className="point-icon">02</span><div><strong>{ar ? "تطوير واجهات أمامية" : "Front-end development"}</strong><span>{ar ? "أبني واجهات متجاوبة باستخدام HTML وCSS وJavaScript وReact." : "I build responsive interfaces with HTML, CSS, JavaScript, and React."}</span></div></div>
+              <div className="about-point"><span className="point-icon">03</span><div><strong>{ar ? "Linux وشبكات CCNA" : "Linux & CCNA networking"}</strong><span>{ar ? "أطوّر معرفتي بأنظمة Linux ومبادئ الشبكات والاتصالات." : "Building my knowledge of Linux systems and CCNA networking fundamentals."}</span></div></div>
+              <div className="about-point"><span className="point-icon">04</span><div><strong>{ar ? "Mobile Backhaul والأمن السيبراني" : "Mobile Backhaul & Cybersecurity"}</strong><span>{ar ? "اهتمام ببنية شبكات المحمول وأساسيات حماية الأنظمة والبيانات." : "Interested in mobile network infrastructure and the fundamentals of protecting systems and data."}</span></div></div>
             </div>
           </div>
           <div className="portrait-wrap reveal">
