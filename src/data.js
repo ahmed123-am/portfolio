@@ -96,7 +96,49 @@ export const projects = [
     live: "https://ahmed123-am.github.io/landing-page-/",
     repo: "https://github.com/ahmed123-am/landing-page-",
   },
-];
+
+  {
+    id: "agrishift",
+    number: "08",
+    title: "AgriShift — NASA Space Apps",
+    category: "NASA SPACE APPS / AGRICULTURE",
+    description: {
+      ar: "منصة زراعية لمسابقة NASA Space Apps، بتجمع بيانات المناخ والمحاصيل وبتعرضها على خريطة تساعد على التخطيط الزراعي.",
+      en: "A NASA Space Apps agriculture platform combining climate and crop data with a map and planning tools.",
+    },
+    tags: ["React", "Leaflet", "NASA Data", "Data Visualization"],
+    preview: "agrishift",
+    live: "https://ahmed123-am.github.io/AgriShift-NASA-SpaceApps/",
+    repo: "https://github.com/ahmed123-am/AgriShift-NASA-SpaceApps",
+  },
+  {
+    id: "plan",
+    number: "09",
+    title: "IEEE Secretary Plan",
+    category: "IEEE CANDIDATE PORTFOLIO",
+    description: {
+      ar: "صفحة بتعرّف بخطة ترشحي لمنصب سكرتير IEEE، وبتعرض خبرتي ورؤيتي والمهام والجدول الزمني.",
+      en: "A candidate portfolio presenting my IEEE secretary plan, experience, vision, responsibilities, and timeline.",
+    },
+    tags: ["HTML", "CSS", "JavaScript", "IEEE"],
+    preview: "plan",
+    live: "https://ahmed123-am.github.io/plan/",
+    repo: "https://github.com/ahmed123-am/plan",
+  },
+  {
+    id: "old-portfolio",
+    number: "10",
+    title: "Portfolio V1",
+    category: "EARLIER PERSONAL PORTFOLIO",
+    description: {
+      ar: "نسخة أقدم من موقعي الشخصي، جمعت فيها نبذة عني ومشاريع الويب وروابط التواصل.",
+      en: "An earlier version of my personal site, featuring an introduction, web projects, and contact links.",
+    },
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    preview: "oldPortfolio",
+    live: "https://ahmed123-am.github.io/MY-PORTIFOLIO/",
+    repo: "https://github.com/ahmed123-am/MY-PORTIFOLIO",
+  },];
 
 export const socialLinks = {
   github: "https://github.com/ahmed123-am",

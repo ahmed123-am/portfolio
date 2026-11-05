@@ -39,7 +39,7 @@ function Hero({ lang }) {
     <section className="hero section-wrap" id="home">
       <div className="hero-grid container">
         <div className="hero-copy reveal">
-          <div className="eyebrow"><span className="status-dot" /><span>{ar ? "مهندس اتصالات & مطوّر واجهات" : "Communications Engineer & Front-End Developer"}</span></div>
+          <div className="eyebrow"><span className="status-dot" /><span>{ar ? "طالب هندسة اتصالات & مطوّر واجهات" : "Communications Engineer & Front-End Developer"}</span></div>
           <h1><span>{ar ? "من الإشارة" : "From signals"}</span><span className="hero-title-accent">{ar ? "إلى الواجهة." : "to interface."}</span></h1>
           <p className="hero-lede">{ar ? "أجمع بين التفكير الهندسي وحبّ بناء واجهات ويب واضحة، سريعة، وممتعة في الاستخدام." : "I bring engineering thinking and a love of building clear, fast, and enjoyable web interfaces together."}</p>
           <div className="hero-actions">
@@ -50,7 +50,6 @@ function Hero({ lang }) {
         </div>
         <Robot lang={lang} />
       </div>
-
     </section>
   );
 }
@@ -63,8 +62,8 @@ function About({ lang }) {
         <div className="section-heading reveal"><p className="section-index">01 <span>/</span> ABOUT</p><h2>{ar ? "بحب أفهم اللي ورا التكنولوجيا، وأحوّله لتجربة سهلة." : "Engineering curiosity. Interface craft."}</h2></div>
         <div className="about-grid">
           <div className="about-copy reveal">
-            <p className="about-lead">{ar ? "أنا أحمد جلال، طالب هندسة اتصالات وإلكترونيات ومطوّر واجهات أمامية. بحب أجمّع بين اللي بتعلمه في الكلية وحبي للتقنية، وأحوّل الأفكار لمواقع سهلة وواضحة." : "I'm Ahmed Galal, a Communications and Electronics Engineering student and front-end developer. I enjoy combining engineering thinking with my passion for technology to turn ideas into clear, easy-to-use digital experiences."}</p>
-            <p className="about-secondary">{ar ? "في الكلية بتعلم عن الإشارات والشبكات والأنظمة، وفي الفرونت إند بستخدم التفكير ده عشان أعمل مواقع متجاوبة ومريحة. وكمان بتعلم Linux وCCNA والأمن السيبراني، ومهتم بباقات وخدمات الموبايل." : "My studies introduce me to signals, networks, and connected systems, while front-end development lets me apply that thinking to responsive, enjoyable websites. I'm also growing my knowledge of Linux, CCNA networking, mobile packages, and cybersecurity."}</p>
+            <p className="about-lead">{ar ? "أنا أحمد جلال، طالب هندسة اتصالات وإلكترونيات ومطوّر واجهات أمامية. بحب أجمّع بين اللي بتعلمه في الكلية وحبي للتقنية، وأحوّل الأفكار لمواقع سهلة وواضحة." : "I'm Ahmed Galal, a communications engineer and front-end developer. I like understanding how a system works, then turning its ideas into clear, approachable web experiences."}</p>
+            <p className="about-secondary">{ar ? "في الكلية بتعلم عن الإشارات والشبكات والأنظمة، وفي الفرونت إند بستخدم التفكير ده عشان أعمل مواقع متجاوبة ومريحة. وكمان بتعلم Linux وCCNA والأمن السيبراني، ومهتم بباقات وخدمات الموبايل." : "Communications engineering shapes how I think about systems, signals, and detail. Front-end development lets me turn that thinking into interfaces people can use and enjoy."}</p>
             <div className="about-points">
               <div className="about-point"><span className="point-icon">01</span><div><strong>{ar ? "اتصالات وإلكترونيات" : "Communications & Electronics"}</strong><span>{ar ? "بدرس الإشارات والشبكات وبفهم إزاي الأنظمة بتتواصل مع بعض." : "Interested in signals, networks, and how systems work together."}</span></div></div>
               <div className="about-point"><span className="point-icon">02</span><div><strong>{ar ? "تطوير واجهات أمامية" : "Front-end development"}</strong><span>{ar ? "بعمل مواقع متجاوبة بـ HTML وCSS وJavaScript وReact." : "I build responsive interfaces with HTML, CSS, JavaScript, and React."}</span></div></div>

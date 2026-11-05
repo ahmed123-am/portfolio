@@ -9,7 +9,7 @@ function DemoPreview({ kind, lang, index }) {
           <div className="terra-map"><div className="field field-a" /><div className="field field-b" /><div className="field field-c" /><span className="map-pin pin-a">✦</span><span className="map-pin pin-b">+</span><div className="map-legend"><i /><i /><i /><small>SOIL / WATER / CROP</small></div></div>
           <div className="terra-side"><small>CLIMATE INTELLIGENCE</small><strong>28.4°<sup>C</sup></strong><span className="terra-chart">{Array.from({ length: 10 }, (_, i) => <i key={i} />)}</span><div className="terra-side-foot"><span>SOIL HEALTH</span><b>82%</b></div></div>
         </div>
-        <span className="visual-corner">{index} / 07</span>
+        <span className="visual-corner">{index} / 10</span>
       </div>
     );
   }
@@ -24,7 +24,7 @@ function DemoPreview({ kind, lang, index }) {
           <div className="wazen-stats"><div><small>MONTHLY BALANCE</small><b>12,480 <i>EGP</i></b><em>↗ 8.2%</em></div><div><small>MONTHLY SPEND</small><b>4,320 <i>EGP</i></b><em className="spend-mark">↘ 3.1%</em></div></div>
           <div className="wazen-chart-wrap"><div className="chart-label"><b>{lang === "ar" ? "نظرة عامة" : "Overview"}</b><small>JAN — JUN</small></div><div className="wazen-bars">{Array.from({ length: 12 }, (_, i) => <i key={i} />)}</div><div className="wazen-months"><span>JAN</span><span>FEB</span><span>MAR</span><span>APR</span><span>MAY</span><span>JUN</span></div></div>
         </div>
-        <span className="visual-corner">{index} / 07</span>
+        <span className="visual-corner">{index} / 10</span>
       </div>
     );
   }
@@ -38,7 +38,7 @@ function DemoPreview({ kind, lang, index }) {
           <span className="ieee-input" /><span className="ieee-input short" /><span className="ieee-input" />
           <span className="ieee-submit">{lang === "ar" ? "إنشاء حساب" : "Create account"}</span>
         </div>
-        <span className="visual-corner">{index} / 07</span>
+        <span className="visual-corner">{index} / 10</span>
       </div>
     );
   }
@@ -48,6 +48,9 @@ function DemoPreview({ kind, lang, index }) {
     perfume: { badge: "PERFUME BAR", title: "SCENT, IN FORM", subtitle: "DISCOVER YOUR NOTES", visual: "bottle" },
     sports: { badge: "SPORTS EDUCATION", title: lang === "ar" ? "تعلم السباحة" : "SWIM SMARTER", subtitle: "LESSON 01 / WATER BASICS", visual: "wave" },
     code: { badge: "CODE MASTERY", title: lang === "ar" ? "ابدأ رحلتك" : "BUILD YOUR FUTURE", subtitle: "LEARN · PRACTICE · CREATE", visual: "code" },
+    agrishift: { badge: "AGRISHIFT / NASA", title: "GROW WITH DATA", subtitle: "CLIMATE · CROPS · MAPS", visual: "agri" },
+    plan: { badge: "IEEE SECRETARY CANDIDATE", title: lang === "ar" ? "الخطة والرؤية" : "VISION & ACTION", subtitle: "EXPERIENCE · MISSION · PLAN", visual: "plan" },
+    oldPortfolio: { badge: "AHMED GALAL / V1", title: "FROM IDEAS TO UI", subtitle: "EARLIER PERSONAL PORTFOLIO", visual: "portfolio" },
   };
   const content = cards[kind];
   return (
@@ -61,9 +64,12 @@ function DemoPreview({ kind, lang, index }) {
           {kind === "perfume" && <><span /><i /><b /></>}
           {kind === "sports" && <><span /><i /><b /></>}
           {kind === "code" && <><span>&lt;/&gt;</span><i /><b /></>}
+          {kind === "agri" && <><span /><i /><b>NASA · FIELD DATA</b></>}
+          {kind === "plan" && <><span /><i /><b>ROLE · ROADMAP</b></>}
+          {kind === "oldPortfolio" && <><span>AG.</span><i /><b>PORTFOLIO</b></>}
         </div>
       </div>
-      <span className="visual-corner">{index} / 07</span>
+      <span className="visual-corner">{index} / 10</span>
     </div>
   );
 }
@@ -102,7 +108,7 @@ export default function Projects({ lang }) {
       <div className="container">
         <div className="section-heading section-heading-row reveal">
           <div><p className="section-index">03 <span>/</span> SELECTED WORK</p><h2>{ar ? "مشاريع بتتكلم عنّي." : "A few things I've built."}</h2></div>
-          <p className="section-note">{ar ? "سبع تجارب متنوعة بين لوحات البيانات، المتاجر، والتعليم التفاعلي." : "Seven different experiences spanning dashboards, storefronts, and interactive learning."}</p>
+          <p className="section-note">{ar ? "عشر مشاريع متنوعة بين لوحات البيانات، المتاجر، والتعليم التفاعلي وتطوير الواجهات." : "Ten projects spanning dashboards, storefronts, interactive learning, and front-end experiences."}</p>
         </div>
         <div className="projects-grid">{projects.map((project) => <ProjectCard project={project} lang={lang} key={project.id} />)}</div>
       </div>
