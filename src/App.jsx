@@ -50,14 +50,6 @@ function Hero({ lang }) {
         </div>
         <Robot lang={lang} />
       </div>
-      <div className="container hero-bottom reveal">
-        <div className="hero-bottom-label"><span className="mono">SCROLL TO EXPLORE</span><span className="scroll-cue" aria-hidden="true">↓</span></div>
-        <div className="hero-quickfacts">
-          <div><strong>07</strong><span>{ar ? "مشاريع مختارة" : "Selected projects"}</span></div>
-          <div><strong>02</strong><span>{ar ? "مجال بيكمل التاني" : "Fields, one mindset"}</span></div>
-          <div><strong>AR / EN</strong><span>{ar ? "موقع بلغتين" : "Bilingual portfolio"}</span></div>
-        </div>
-      </div>
     </section>
   );
 }
