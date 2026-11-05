@@ -121,6 +121,10 @@ export default function Robot({ lang }) {
       </div>
       <div className="floating-chip chip-code"><span>&lt;/&gt;</span><small>FRONT-END</small></div>
       <div className="floating-chip chip-signal"><span>∿</span><small>COMMS</small></div>
+      <div className="floating-chip skill-chip chip-linux"><span>⌘</span><small>LINUX</small></div>
+      <div className="floating-chip skill-chip chip-ccna"><span>⌁</span><small>CCNA</small></div>
+      <div className="floating-chip skill-chip chip-mobile"><span>◌</span><small>MOBILE PACKAGE</small></div>
+      <div className="floating-chip skill-chip chip-cyber"><span>⌕</span><small>CYBER SECURITY</small></div>
     </div>
   );
 }
