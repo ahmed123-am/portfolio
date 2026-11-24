@@ -138,7 +138,53 @@ export const projects = [
     preview: "oldPortfolio",
     live: "https://ahmed123-am.github.io/MY-PORTIFOLIO/",
     repo: "https://github.com/ahmed123-am/MY-PORTIFOLIO",
-  },];
+  },
+  {
+    id: "scene-store",
+    number: "11",
+    title: "SCÈNE",
+    category: "3D PRINTING / E-COMMERCE",
+    description: {
+      ar: "متجر عربي لمجسمات الطباعة ثلاثية الأبعاد، مع كتالوج للمنتجات وطلبات مخصصة.",
+      en: "An Arabic storefront for 3D-printed models, with a product catalog and custom requests.",
+    },
+    tags: ["React", "Node.js", "Supabase", "3D Printing"],
+    preview: "scene",
+    live: "https://scene3d-store.vercel.app/",
+    repo: "https://github.com/ahmed123-am/scene-store",
+  },
+  {
+    id: "ki-coaching",
+    number: "12",
+    title: "KI.COACHING",
+    category: "PERSONAL COACHING",
+    description: {
+      ar: "موقع للتدريب الشخصي وتمارين القوة والخطط الأونلاين، مع نموذج لطلبات التدريب ولوحة خاصة لإدارتها.",
+      en: "A personal coaching site for strength training and online plans, with an inquiry form and private lead dashboard.",
+    },
+    tags: ["React", "Vite", "Supabase", "Fitness"],
+    preview: "coaching",
+    live: "https://kicoaching.vercel.app/",
+    accessNote: {
+      ar: "المعاينة تتطلب تسجيل الدخول عبر Vercel.",
+      en: "Preview requires Vercel sign-in.",
+    },
+  },
+  {
+    id: "tayya",
+    number: "13",
+    title: "طَيّة · Tayya",
+    category: "3D PRINTING / CUSTOM ORDERS",
+    description: {
+      ar: "منصة عربية للطباعة ثلاثية الأبعاد، تتيح معاينة ملفات STL وOBJ و3MF وتخصيص تفاصيل المجسم وتكلفته.",
+      en: "An Arabic 3D-printing storefront with STL, OBJ, and 3MF previews, customization options, and price estimates.",
+    },
+    tags: ["React", "Vite", "Node.js", "3D Preview"],
+    preview: "tayya",
+    live: "https://tayya-3d.vercel.app/",
+    repo: "https://github.com/ahmed123-am/tayya",
+  },
+];
 
 export const socialLinks = {
   github: "https://github.com/ahmed123-am",
